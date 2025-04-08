@@ -42,7 +42,7 @@ const CardContent = ({
       <img
         className="movie-card--poster"
         alt="poster"
-        src={poster ? `${_apiPosterbase}${poster}` : 'src/noImage.png'}
+        src={poster ? `${_apiPosterbase}${poster}` : 'src/no-image.png'}
         // onError={handleError}
       />
       
