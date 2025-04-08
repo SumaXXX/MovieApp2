@@ -42,7 +42,6 @@ export default function CardList({ numberOfCards, isErrors }) {
   };
   let ratedMovies = movieDBService.getUserRatedResource(1);
   ratedMovies.then((res) => {
-    console.log(res.results.length);
     setRatedNumberOfCards(res.results.length);
   });
   const onChange = (key) => {
