@@ -54,7 +54,6 @@ export default function CardList({ numberOfCards, isErrors }) {
   };
 
   const goToSearch = (value) => {
-    console.log(value);
     setSearch(value);
     getTotalPages(value);
     setIsNothingWasFound(false);
