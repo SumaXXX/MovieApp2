@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Inter-medium';
+  src: url(./fonts/Inter-Medium.otf) format('oft');
+}
+
+.movie-card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 451px;
+  height: 279px;
+  display: flex;
+}
+
+@media (max-width: 430px) {
+  .movie-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 439px;
+    height: 279px;
+    margin: 0px 0px 0px 2rem;
+  }
+
+  .rate {
+    width:250px;
+  }
+
+  .movie-card--info {
+    width: 200px;
+  }
+
+  .movie-card--info--description {
+    margin: 0 0 8 0;
+    width: 210px;
+    height: 140px
+  }
+
+  .search {
+    margin-left: 0.3rem;
+    width: 20rem !important;
+  }
+}
+
+.movie-card--poster {
+  display: block;
+  right: 0;
+  margin: 0;
+  height: 281;
+  max-width: 180px;
+}
+
+
+
+
+.movie-card--info--genres {
+  margin-top: 10px;
+}
+
+.movie-card--info--description {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}

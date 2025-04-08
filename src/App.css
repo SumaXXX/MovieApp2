@@ -1,0 +1,15 @@
+.cards {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
