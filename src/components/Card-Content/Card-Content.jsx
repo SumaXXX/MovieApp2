@@ -20,7 +20,6 @@ const CardContent = ({
   },
 }) => 
   {
-  console.log(poster)
   const _apiPosterbase = `https://image.tmdb.org/t/p/w500/`;
   const [starValue, setStarValue] = useState(isUserRated ? rate : 0);
   const [rating, setRating] = useState(0);
